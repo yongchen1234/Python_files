@@ -1,0 +1,12 @@
+from __future__ import print_funtion
+import random 
+
+def math_tricks ():
+    print "Yo! What up.\n" + "Who are you? Give me your name please."
+    name = raw_input('Your name:')
+    print " Alright! Greerings, " + name + ". Ready for the math game? I am sure you do.\n" + " So here is the rule: You will enetr the answers by typing your keyboard\n" + ", and if you got 5 wrongs, you out! You could see the score after you got out."
+    formula1 = (number) ** int((square1)) 
+    number = random.randint (0,7)
+    square1 = random.choice(1, 2, 3)
+    
+    return formula1
