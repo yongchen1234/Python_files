@@ -1,12 +1,48 @@
 from __future__ import print_funtion
 import random 
+import the math module  
+import math 
 
-def math_tricks ():
+Wrongs = 0
+Score = 0
+def math_game ():
     print "Yo! What up.\n" + "Who are you? Give me your name please."
     name = raw_input('Your name:')
-    print " Alright! Greerings, " + name + ". Ready for the math game? I am sure you do.\n" + " So here is the rule: You will enetr the answers by typing your keyboard\n" + ", and if you got 5 wrongs, you out! You could see the score after you got out."
-    formula1 = (number) ** int((square1)) 
-    number = random.randint (0,7)
-    square1 = random.choice(1, 2, 3)
+    print " Alright! Greerings, " + name + ". Ready for the math game?" 
+    print " So here is the rule: You will enetr the answers by typing your keyboard.\n" 
+    print " And if you got 5 wrongs, you out! You could see the score after you got out."
+    DD: raw_input(what level do you want to in? Easy, Normal, Hard or MASTER? :')
+    if DD = Easy:
+     numberA = random.randint (1,9)
+     numberAA = random.choice (1,9,16,25,81,125,169,225,1000,625)
+     squareA = random.choice(1, 2, 3，4)
+     formula1 = (number) ** int((square1)) 
+     formula2 = (int((number)) + 10) ** int(square)
+     formula3 = math.sqrt(int(numberAA)) + 215
+     resultA = random.choice (formula1,formula2,formula3)
+     print resultA
+     answerA = int(raw_input:(your answer:))
+      while answerA != resultA:
+       Wrongs += 1
+      if answerA = resultA:
+       Score += 1 
+     if Score = 10:
+       print "Nice! You got 10 right, you are the boss of this level, try go to challenge next level!"
+       ClevelResponse = raw_input:(Would you like to go to Normal level? YES or NO?)
+       if ClevelResponse = YES:
+         print "Hold you house, I am changing...."
+         print "......" + ".,...."
+         print "......" + ".....,"
+         print " AHHHH, Your Current Level IS Normal."
+         DD = Normal
+       
+     if Wrongs = 5:
+       return "Get out of here! Go find your algebar teacher and yell my name in hall!"
+     
     
-    return formula1
+    if DD = Normal:
+     X = random.randint(0,10)
+     Y = random.choice str(Orange, Apple, Broccoli, Cauliflower)
+     Z = random.choice str(你， 我， 他）
+    
+    
