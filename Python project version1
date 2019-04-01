@@ -43,6 +43,6 @@ def math_game ():
     if DD = Normal:
      X = random.randint(0,10)
      Y = random.choice str(Orange, Apple, Broccoli, Cauliflower)
-     Z = random.choice str(你， 我， 他）
+    
     
     
