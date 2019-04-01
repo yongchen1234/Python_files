@@ -1,1 +1,14 @@
 
+# -*- coding: utf-8 -*-
+from __future__ import print_function # must be first in file
+import random
+import math 
+Wrongs = 0
+Score = 0
+def math_game ():
+    #'''Here, I use a common name system and explain the rules to players.'''
+    print ('Yo! What up. Greetings!') 
+    print ('So here is the rule: You will enetr the answers by typing your keyboard.\n') 
+    print ('And if you got 5 wrongs, you out! You could see the score after you got out.')
+    numberA = random.randint (1,9)
+    numberAA = random.choice (1,9,16,25,81,125,169,225,1000,625)
