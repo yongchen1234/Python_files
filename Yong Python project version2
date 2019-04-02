@@ -8,7 +8,37 @@ Score = 0
 def math_game ():
     #'''Here, I use a common name system and explain the rules to players.'''
     print ('Yo! What up. Greetings!') 
-    print ('So here is the rule: You will enetr the answers by typing your keyboard.\n') 
+    print ('So here is the rule: You will enetr the answers by typing your keyboard.') 
     print ('And if you got 5 wrongs, you out! You could see the score after you got out.')
-    numberA = random.randint (1,9)
-    numberAA = random.choice (1,9,16,25,81,125,169,225,1000,625)
+    Print ('Right now, choose your level.')
+    DD = raw_input ('1 is easy, 2 is normal, 3 is hard and 4 is MASTER!!!')
+    if DD = 1:
+     numberA = random.randint (1,9)
+     numberAA = random.choice (1,9,16,25,81,125,169,225,1000,625)
+     squareA = random.choice(1, 2, 3，4)
+     formula1 = (numberA) ** int((squareA)
+     formula2 = math.sqrt (int(numberAA)) + 215
+     resultA = random.choice (formula1,,formula2)
+     print ('Question is ') + result 
+     answerA = int(raw_input:(your answer:))
+      while answerA != resultA:
+       Wrongs += 1
+      if answerA = resultA:
+       Score += 1 
+     if Score = 10:
+       print "Nice! You got 10 right, you are the boss of this level, try go to challenge next level!"
+       ClevelResponse = raw_input:(Would you like to go to Normal level? YES or NO?)
+       if ClevelResponse = YES:
+         print "Hold you house, I am changing...."
+         print "......" + ".,...."
+         print "......" + ".....,"
+         print " AHHHH, Your Current Level IS Normal."
+         DD = Normal
+       
+     if Wrongs = 5:
+       return "Get out of here! Go find your algebar teacher and yell my name in hall!"
+     
+    
+    if DD = Normal:
+     X = random.randint(0,10)
+     Y = random.choice str(Orange, Apple, Broccoli, Cauliflower)
