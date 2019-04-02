@@ -16,10 +16,10 @@ def math_game ():
       numberA = random.randint (1,9)
       numberAA = random.choice (1,9,16,25,81,125,169,225,1000,625)
       squareA = random.choice(1, 2, 3，4)
-      F1 = 
-      F2 = 'What is the square root of', 
-      resultA = random.choice (formula1,,formula2)
-      print ('Question is ') + result 
+      F1 = str('What is the square root of' + numberA + '?')
+      F2 = str('What is the square root of' + numberAA + '215?')
+      resultA = random.choice (F1, F2) 
+      print resultA
       answerA = int(raw_input:(your answer:))
      
      if Score = 10:
