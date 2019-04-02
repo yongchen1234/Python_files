@@ -21,14 +21,13 @@ def math_game ():
       resultA = random.choice (F1, F2) 
       print resultA
       answerA = int(raw_input:(your answer:))
-     
+     if answerA = 
      if Score = 10:
        print "Nice! You got 10 right, you are the boss of this level, try go to challenge next level!"
        ClevelResponse = raw_input:(Would you like to go to Normal level? YES or NO?)
        if ClevelResponse = YES:
-         print "Hold you house, I am changing...."
-         print "......" + ".,...."
-         print "......" + ".....,"
+         print "Hold you horse, I am changing...."
+         print "......" + "......"
          print " AHHHH, Your Current Level IS Normal."
          DD = Normal
        
