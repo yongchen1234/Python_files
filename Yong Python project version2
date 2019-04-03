@@ -32,7 +32,7 @@ def math_game ():
          DD = Normal
        
      if Wrongs = 5:
-       return "Get out of here! Go find your algebar teacher and yell my name in hall!"
+        return "Get out of here! Go find your algebar teacher and yell my name in hall!"
      
     
     if DD = Normal:
