@@ -80,10 +80,10 @@ for questions2 in range(6):
 
 if questionss == 6:
     print ('\nha you good boy, try the last Master question!\n')
-    one = int(raw_input=('1+1='))
+    one = int(raw_input=('1'+ '+' + '1' + '='))
     resultsssss = 2
     if one == resultsssss:
-        print('What? This is impossible, you arre the god of this Game!!!')
+        print('What? This is impossible, you are the god of this Game!!!')
     else:
         print('Get out of here! Go to find you Algebra teacher and yell my name in the hall!')
     
